@@ -1,6 +1,6 @@
 # Excercise Information
 
-In the previous exercise we build a GoalList UI where each component the three goals was create seprately. In this excercise, we have one component `GoalItem` component that we configure via `props` to render dynamic content. This was we have only one component and three different goals rendered:
+In this excercise we make use of components to render a list like this:
 
 ```html
 These are my goals for the new year
