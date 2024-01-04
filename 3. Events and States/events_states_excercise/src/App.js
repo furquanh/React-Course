@@ -3,10 +3,11 @@ import './App.css';
 import EmailInput from './components/input_field'
 import LoginForm from './components/multiple_state_input_field'
 import LoginFormCombinedState from './components/combined_state_input_field'
+import NewsletterField from './components/twowaybinding'
 
 function App() {
   return (
-    <LoginFormCombinedState />
+    <NewsletterField />
   );
 }
 
