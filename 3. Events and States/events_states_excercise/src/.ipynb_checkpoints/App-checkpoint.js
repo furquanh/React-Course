@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import EmailInput from './components/input_field'
+import LoginForm from './components/multiple_state_input_field'
+import LoginFormCombinedState from './components/combined_state_input_field'
 
 function App() {
   return (
-    <EmailInput />
+    <LoginFormCombinedState />
   );
 }
 
@@ -28,3 +30,5 @@ export default App;
   </header>
 </div>
 */
+
+// <EmailInput />
